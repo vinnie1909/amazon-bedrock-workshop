@@ -10,14 +10,17 @@ This workshop is intended for developers and solution builders.
 
 What’s included in this workshop:
 
-    Text Generation [Estimated time to complete - 30 mins]
-    Text Summarization [Estimated time to complete - 30 mins]
-    Questions Answering [Estimated time to complete - 45 mins]
-    Chatbot [Estimated time to complete - 45 mins]
-    Image Generation [Estimated time to complete - 30 mins]
+- Text Generation \[Estimated time to complete - 30 mins\]
+- Text Summarization \[Estimated time to complete - 30 mins\]
+- Questions Answering \[Estimated time to complete - 45 mins\]  
+- Chatbot \[Estimated time to complete - 45 mins\]
+- Image Generation \[Estimated time to complete - 30 mins\]
 
+<div align="center">
 
 ![10-overview](10-overview.png)
+
+</div>
  
 Workshop Link: [https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US/20-intro](https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US)
 
