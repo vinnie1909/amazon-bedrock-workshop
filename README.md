@@ -2,12 +2,24 @@
 
 ## Introduction to the Repository and Workshop
 
- Amazon Bedrock is a fully managed service that makes FMs from leading AI startups and Amazon available via an API, so you can choose from a wide range of FMs to find the model that's best suited for your use case. With the Bedrock serverless experience, you can get started quickly, privately customize FMs with your own data, and easily integrate and deploy them into your applications using the AWS tools and capabilities you are familiar.
+The goal of this workshop is to give you hands-on experience leveraging foundation models (FMs) through Amazon Bedrock. Amazon Bedrock is a fully managed service that provides access to FMs from third-party providers and Amazon; available via an API. With Bedrock, you can choose from a variety of models to find the one that’s best suited for your use case.
 
-This workshop will walkthrough common examples, and patterns for using Amazon Bedrock.
+Within this series of labs, you will be taken through some of the most common usage patterns we are seeing with our customers for Generative AI. We will explore techniques for generating text and images, creating value for organizations by improving productivity. This is achieved by leveraging foundation models to help in composing emails, summarizing text, answering questions, building chatbots, and creating images. You will gain hands-on experience using Bedrock APIs, SDKs, and open-source software for example LangChain and FAISS to implement these usage patterns.
 
+This workshop is intended for developers and solution builders.
+
+What’s included in this workshop:
+
+    Text Generation [Estimated time to complete - 30 mins]
+    Text Summarization [Estimated time to complete - 30 mins]
+    Questions Answering [Estimated time to complete - 45 mins]
+    Chatbot [Estimated time to complete - 45 mins]
+    Image Generation [Estimated time to complete - 30 mins]
+
+
+![10-overview](10-overview.png)
  
-Workshop Link: https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US/20-intro
+Workshop Link: [https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US/20-intro](https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US)
 
 
 
