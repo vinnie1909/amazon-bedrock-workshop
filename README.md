@@ -1,5 +1,19 @@
 # Amazon Bedrock Workshop
 
+## Introduction to the Repository and Workshop
+
+ Amazon Bedrock is a fully managed service that makes FMs from leading AI startups and Amazon available via an API, so you can choose from a wide range of FMs to find the model that's best suited for your use case. With the Bedrock serverless experience, you can get started quickly, privately customize FMs with your own data, and easily integrate and deploy them into your applications using the AWS tools and capabilities you are familiar.
+
+This workshop will walkthrough common examples, and patterns for using Amazon Bedrock.
+
+ 
+Workshop Link: https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US/20-intro
+
+
+
+
+
+
 ## Using these notebooks
 
 The bedrock SDK is not already a part of boto3. To download the additional python wheel run the following script
