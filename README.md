@@ -22,7 +22,7 @@ What’s included in this workshop:
 
 </div>
  
-Workshop Link: [https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US/20-intro](https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US)
+Workshop Link: [https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US/](https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-5600-4368-81c5-ff5b4154f518/en-US)
 
 
 
@@ -32,15 +32,15 @@ Workshop Link: [https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-
 ## Using these notebooks
 
 The bedrock SDK is not already a part of boto3. To download the additional python wheel run the following script
-```
+```sh
 bash ./download-dependencies.sh
 ```
 This script will create a `dependencies` folder and download the relevant SDKs needed to use Amazon Bedrock. Which can then be installed as follows:
 
 ```bash
-pip install ../dependencies/botocore-1.29.162-py3-none-any.whl --force-reinstall
-pip install ../dependencies/boto3-1.26.162-py3-none-any.whl --force-reinstall
-pip install ../dependencies/awscli-1.27.162-py3-none-any.whl --force-reinstall
+pip install ./dependencies/botocore-1.29.162-py3-none-any.whl --force-reinstall
+pip install ./dependencies/boto3-1.26.162-py3-none-any.whl --force-reinstall
+pip install ./dependencies/awscli-1.27.162-py3-none-any.whl --force-reinstall
 ```
 
 Following this a bedrock client can be created as follows:
@@ -84,11 +84,11 @@ We then take this further by enhancing the prompt with additional context in ord
 
 ### Summarization
 
-[Small text summarization](./02_Summarization/01.small-text-summarization.ipynb)
+[Small text summarization](./02_Summarization/01.small-text-summarization-claude.ipynb)
 
 In this notebook, you use use Bedrock to perform a simple task of summarising a small piece of text. 
 
-[Long text summarization](./02_Summarization/02.long-text-summarization.ipynb)
+[Long text summarization](./02_Summarization/02.long-text-summarization-titan.ipynb)
 
 The above approach may not work as the content to be summarized gets larger and exceeds the max tokens of the model. In this notebook we show an approach of breaking the file up into smaller chunks, summarizing each chunk, and then summarizing the summaries.
 
@@ -114,6 +114,6 @@ This notebook shows a chatbot using Titan
 
 ### Text to Image
 
-[Image Generation with Stable Diffusion](./05_Text_To_Image/Bedrock%20Stable%20Diffusion%20XL.ipynb)
+[Image Generation with Stable Diffusion](./05_Image/Bedrock%20Stable%20Diffusion%20XL.ipynb)
 
 This notebook demonstrates image generation with using the Stable Diffusion model
