@@ -31,6 +31,12 @@ Workshop Link: [https://catalog.us-east-1.prod.workshops.aws/workshops/a4bdb007-
 
 ## Using these notebooks
 
+Start by cloning the workshop repo
+
+```sh
+git clone https://github.com/aws-samples/amazon-bedrock-workshop.git
+```
+
 The bedrock SDK is not already a part of boto3. To download the additional python wheel run the following script
 ```sh
 bash ./download-dependencies.sh
